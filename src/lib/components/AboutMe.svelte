@@ -7,7 +7,7 @@
 	<div class="mx-auto max-w-6xl px-6">
 		<div class="reveal grid items-center gap-16 lg:grid-cols-2" use:reveal>
 			<!-- Image / Visual Side -->
-			<div class="relative order-2 overflow-hidden lg:order-1">
+			<div class="relative order-2 lg:order-1">
 				<div
 					class="relative z-10 mx-auto aspect-square w-full max-w-md overflow-hidden rounded-3xl border-2 border-white/10 bg-white/5 shadow-2xl transition-transform duration-500 hover:rotate-2"
 				>
@@ -17,14 +17,6 @@
 						class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
 					/>
 				</div>
-
-				<!-- Decorative Elements -->
-				<div
-					class="absolute -top-10 -left-10 -z-10 h-64 w-64 rounded-full bg-[var(--color-primary)] opacity-20 blur-[80px]"
-				></div>
-				<div
-					class="absolute -right-10 -bottom-10 -z-10 h-64 w-64 rounded-full bg-[var(--color-accent)] opacity-20 blur-[80px]"
-				></div>
 			</div>
 
 			<!-- Text Content -->
