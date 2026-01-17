@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-display: "Space Grotesk", sans-serif;
+	--font-body: "Inter", sans-serif;
+
+	--color-background: #050505;
+	--color-surface: #0a0a0a;
+	--color-primary: #3b82f6;
+	--color-accent: #14b8a6;
+}
+
+:root {
+	color-scheme: dark;
+}
+
+body {
+	background-color: var(--color-background);
+	color: #ffffff;
+	font-family: var(--font-body);
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-display);
+}
+
+.reveal {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
