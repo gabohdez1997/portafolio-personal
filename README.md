@@ -1,38 +1,49 @@
-# sv
+# Portafolio Personal - Gabriel Hernandez
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+![Portfolio Preview](static/portafolio-personal.png)
 
-## Creating a project
+Portafolio moderno y responsivo desarrollado con **SvelteKit** y **TailwindCSS**. Diseñado para mostrar mis habilidades como Desarrollador Full-Stack y Especialista en Redes/FTTH.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Tecnologías
 
-```sh
-# create a new project in the current directory
-npx sv create
+*   **Framework:** [SvelteKit](https://kit.svelte.dev/)
+*   **Estilos:** [TailwindCSS v4](https://tailwindcss.com/)
+*   **Animaciones:** Svelte Transitions & Custom CSS Reveal
+*   **Iconos:** [Lucide Svelte](https://lucide.dev/)
+*   **Despliegue:** [Vercel](https://vercel.com/)
 
-# create a new project in my-app
-npx sv create my-app
-```
+## ✨ Características
 
-## Developing
+*   🎨 **Diseño Moderno:** Interfaz oscura, minimalista y profesional.
+*   📱 **Responsive:** Navegación móvil optimizada con menú overlay.
+*   ⚡ **Performance:** Carga ultrarrápida gracias a SvelteKit.
+*   ✨ **Animaciones:** Efectos de "reveal on scroll" reversibles.
+*   📧 **Contacto:** Formulario funcional integrado con Formspree.
+*   🔍 **SEO:** Etiquetas meta y Open Graph configuradas.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠️ Instalación Local
 
-```sh
-npm run dev
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/gabohdez1997/portafolio.git
+    cd portafolio
+    ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2.  **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
 
-## Building
+3.  **Correr el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    ```
 
-To create a production version of your app:
+4.  Abrir `http://localhost:5173` en tu navegador.
 
-```sh
-npm run build
-```
+## 📄 Licencia
 
-You can preview the production build with `npm run preview`.
+Este proyecto está bajo la licencia [MIT](LICENSE).
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+Hecho con ❤️ en Venezuela por [Gabriel Hernandez](https://www.linkedin.com/in/gabohdez1997/)
